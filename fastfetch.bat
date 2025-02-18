@@ -24,29 +24,27 @@ set /a ram_mb=!ram:~0,-3!/1024/1024
 
 REM Mostrar el arte ASCII de Windows 11 y la información del sistema
 echo -------------------------------------
-echo         Sistema Rápido Fetch
+echo          FAST FETCH
 echo -------------------------------------
 echo               ..        ..
-echo             MMMMMMMMMMMMMMMM
-echo          MMMMMMMMMMMMMMMMMMMMMM
-echo        MMMMMMMMMMMMMMMMMMMMMMMMMM
-echo      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo     MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo   MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo    MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo      MMMMMMMMMMMMMMMMMMMMMMMMMMMMMM
-echo         MMMMMMMMMMMMMMMMMMMMMMMMMM
-echo              MMMMMMMMMMMMMMMMMM
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM           
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM        
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM      
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM    
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM   
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM  
+
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM 
+echo  MMMMMMMMMMMMM MMMMMMMMMMMMMM 
 echo
 echo -------------------------------------
-echo Nombre del equipo:  !hostname!
-echo Versión de Windows: !windows_version!
-echo Arquitectura:       !architecture!
-echo Memoria RAM:        !ram_mb! MB
+echo PC: !hostname!   
+echo Windows Version: !windows_version!
+echo Architecture:       !architecture!
+echo RAM consumption:        !ram_mb! MB
 echo -------------------------------------
 
 endlocal
