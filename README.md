@@ -1,4 +1,4 @@
-# Package zS
+# Package **zS**
 
 This package brings Linux command tools to Windows, making programming much easier.
 
